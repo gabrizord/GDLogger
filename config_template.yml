@@ -1,0 +1,33 @@
+#	Obrigado por usar meu Plugin!
+#	@author GabrielDev
+#	Version: 1.4
+
+#Esta usando Chat Global?
+ChatGlobal: true
+
+#Deseja Anular em /login na log?.
+AnularSenha: true
+
+#Nick dos Admin (Os Admins onde o log do /monitorar ira aparecer):
+AdminNick:
+  - Nick_Do_Admin
+  - Nick_Do_Admin2
+  
+#Cria um arquivo de log exclusivo para um Player! (Bom para Monitorar STAFF).
+#Não precisa de permission
+PlayerLog: false
+#Só vai funcionar se o a opção "PlayerLog" acima for true!
+PlayerNick:
+  - Nick_Do_Player
+  - Nick_Do_Player2
+#Tipos de log que voce quer ativar para os player acima!(Disponivel apenas para monitorar Player)
+LogDoPlayer:
+  LogComando: true
+  LogChat: true
+  LogColocarBloco: true
+  LogQuebraBloco: true
+  LogDrop: true
+  LogPick: true
+  LogSign: true
+  LogEnchant: true
+  LogChest: EMBREVE

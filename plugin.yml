@@ -1,0 +1,8 @@
+name: GDLogger
+description: GDLogger!
+version: 1.4
+main: me.GabrielDev.GDLogger.Main
+authors: [GabrielDev]
+commands:
+  monitorar:
+    description: Recarrega o Plugin!
